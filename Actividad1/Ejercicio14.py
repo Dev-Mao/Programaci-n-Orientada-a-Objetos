@@ -1,5 +1,7 @@
-# Leer el número desde el usuario
-numero = float(input("Ingrese un número: "))
+import random
+
+# Generar un número aleatorio de 1 al 100
+numero = random.randint(0, 100)
 
 # Calcular el cuadrado y el cubo
 cuadrado = numero ** 2
